@@ -1,0 +1,36 @@
+.header {
+	height: 60px;
+	background-color: #989898;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+.iconHeading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navButtonSection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0;
+}
+
+.navButtons {
+	font-size: 1.5rem;
+	color: white;
+	height: 100%;
+	padding: 20px;
+	background: none;
+	border: none;
+}
+
+.navButtons:focus,
+.navButtons:hover {
+	background: red;
+	padding: 16px;
+}

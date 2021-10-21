@@ -1,0 +1,11 @@
+.sideButtons {
+	font-size: 1.25rem;
+	padding: 10px;
+	background: none;
+	color: white;
+	border: none;
+}
+
+.sideButtons:hover {
+	background-color: yellow;
+}
